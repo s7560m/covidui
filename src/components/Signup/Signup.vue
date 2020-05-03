@@ -1,0 +1,273 @@
+<template>
+  <div>
+  <header class="Signup">
+    <img src = "bubble.png" class = "Signup__bubble" alt = "" />
+    <h1 class = "Signup__title">Sign Up</h1>
+  </header>
+
+  <div class="Signup__content">
+    <div class="Signup__email">
+      <h2 class="Signup__email__ask">Enter e-mail address:</h2>
+
+      <input type="text" name = "" class="Signup__email__input" placeholder="example@youremail.com">
+
+      <img src = "envelope.png" class = "Signup__envelope" alt = "" />
+    </div>
+
+    <div class="Signup__pass">
+      <h2 class="Signup__pass__ask">Enter your password:</h2>
+
+      <input type="text" name = "" class="Signup__pass__input" placeholder="Password123">
+
+      <img src = "key.png" class = "Signup__key1" alt = "" />
+
+    </div>
+
+    <div class="Signup__confirm">
+      <h2 class="Signup__confirm__ask">Confirm your password:</h2>
+
+      <input type="text" name = "" class="Signup__confirm__input" placeholder="Password123">
+
+      <img src = "key.png" class = "Signup__key2" alt = "" />
+
+    </div>
+
+
+    <input type="submit" value = "Submit" class = "Signup__submit__btn">
+
+  </div>
+  </div>
+</template>
+
+<script>
+    export default {
+        name: "Signup"
+    }
+</script>
+
+<style scoped>
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .Signup {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color:  #242323;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Signup__bubble{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -450px;
+  }
+
+  .Signup__title {
+    position: absolute;
+    width: 253px;
+    height: 84px;
+    left: 45%;
+    top: 15%;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 76px;
+    line-height: 104px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+
+  .Signup__email__ask {
+    position: absolute;
+    width: 350px;
+    height: 74px;
+    left: 20%;
+    top: 55%;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+  }
+
+
+  .Signup__email__input {
+    position: absolute;
+    width: 486px;
+    height: 68px;
+    left: 45%;
+    top: 57.5%;
+
+    border: 1px solid black;
+    background: #75DBF0;
+    border-radius: 90px;
+
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+
+
+    text-decoration: none;
+
+    color: #000000;
+  }
+
+
+
+  .Signup__pass__ask {
+    position: absolute;
+    width: 350px;
+    height: 74px;
+    left: 20%;
+    top: 65%;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+  }
+
+  .Signup__pass__input {
+    position: absolute;
+    width: 486px;
+    height: 68px;
+    left: 45%;
+    top: 67.5%;
+
+    border: 1px solid black;
+    background: #75DBF0;
+    border-radius: 90px;
+
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+
+
+    text-decoration: none;
+
+    color: #000000;
+  }
+
+  .Signup__confirm__ask {
+    position: absolute;
+    width: 350px;
+    height: 74px;
+    left: 20%;
+    top: 75%;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+  }
+
+  .Signup__confirm__input {
+    position: absolute;
+    width: 486px;
+    height: 68px;
+    left: 45%;
+    top: 77.5%;
+
+    border: 1px solid black;
+    background: #75DBF0;
+    border-radius: 90px;
+
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+
+
+    text-decoration: none;
+
+    color: #000000;
+  }
+
+  .Signup__submit__btn {
+    position: absolute;
+    width: 200px;
+    height: 68px;
+    left: 55%;
+    top: 87.5%;
+
+    border: 1px solid black;
+    background: #4B87FE;
+    border-radius: 90px;
+  }
+
+  .Signup__envelope {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 47%;
+    top: 59%;
+  }
+
+
+  .Signup__key1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 47%;
+    top: 69%;
+  }
+
+  .Signup__key2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 47%;
+    top: 79%;
+  }
+
+  ::placeholder {
+    color: black;
+  }
+</style>

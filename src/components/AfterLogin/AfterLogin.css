@@ -1,0 +1,181 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.AfterLogin {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color:  #242323;
+    width: 100vw;
+    height: 100vh;
+}
+
+.AfterLogin__menu {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+background: linear-gradient(180deg, #75DBF0 0%, #4B87FE 100%), #C4C4C4; 
+}
+
+.AfterLogin__name {
+    position: absolute;
+    width: 350px;
+    height: 74px;
+    left: 10%;
+    top: -2%;
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.AfterLogin__options {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 10%;
+
+    background: linear-gradient(180deg, #4B87FE 0%, #6FCFF2 100%), #4B87FE;
+}
+
+.AfterLogin__faqs {
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 10%;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 30px;
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.AfterLogin__symptoms {
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 25%;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 30px;
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.AfterLogin__location {
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 40%;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 30px;
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.AfterLogin__tracker {
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 55%;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 30px;
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.AfterLogin__logout {
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    left: 10%;
+    top: 70%;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 30px;
+
+    font-family: Carme;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.AfterDisplay__display {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 20%;
+    top: 0px;
+}
+
+.one {
+
+}
+
+.two {
+
+}
+
+.three {
+
+}
+
+.four {
+
+}
