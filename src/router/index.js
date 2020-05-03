@@ -6,6 +6,8 @@ import Dashboard from "../components/Dashboard/Dashboard";
 import DisplayHospital from "../components/DisplayHospital/DisplayHospital";
 import EnterLocation from "../components/EnterLocation/EnterLocation";
 import Login from "../components/Login/Login";
+import Signup from "../components/Signup/Signup";
+import GetSymptoms from "../components/Input/GetSymptoms";
 
 Vue.use(Router)
 
@@ -40,6 +42,16 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/signup',
+      name: 'Signup',
+      component: Signup
+    },
+    {
+      path: '/getSymptoms',
+      name: 'GetSymptoms',
+      component: GetSymptoms
     }
   ]
 })

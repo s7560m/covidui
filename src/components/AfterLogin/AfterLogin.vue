@@ -59,7 +59,12 @@
 
 <script>
     export default {
-        name: "AfterLogin"
+        name: "AfterLogin",
+      return: {
+          data () {
+
+          }
+      }
     }
 </script>
 
